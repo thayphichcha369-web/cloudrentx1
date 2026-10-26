@@ -1,0 +1,10 @@
+{
+  "name": "cloudrent-fullstack-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CloudRent PC rental starter with admin controls, payment configuration and host agent",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"bcryptjs": "^2.4.3", "better-sqlite3": "^11.8.1", "express": "^4.21.2", "jsonwebtoken": "^9.0.2", "multer": "^1.4.5-lts.1"}
+}
